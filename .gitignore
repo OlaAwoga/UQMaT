@@ -1,0 +1,30 @@
+# MATLAB autosave and backup 
+*.asv 
+*.m~ 
+*.mlx~ 
+
+# MATLAB workspace matlab.mat 
+*.mat 
+
+# MEX compiled files 
+*.mex 
+*.mexa64 
+*.mexw64 
+*.mexmaci64 
+*.mexmaca64 
+
+# Simulink 
+slprj/ 
+*.slxc 
+
+# MATLAB code generation 
+codegen/ 
+
+# OS files 
+.DS_Store 
+Thumbs.db
+desktop.ini 
+
+# Output files 
+*.zip 
+*.log
