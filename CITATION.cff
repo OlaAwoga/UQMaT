@@ -1,0 +1,254 @@
+cff-version: 1.2.0
+message: "If you use UQMaT in your research, please cite as below."
+type: software
+title: "UQMaT: Unified Quantum Materials Toolbox"
+abstract: >
+  UQMaT is a MATLAB package for constructing, solving, and analysing
+  tight-binding and Bogoliubov-de Gennes (BdG) Hamiltonians on 1D, 2D,
+  and 3D lattices. It supports a wide range of phenomena including
+  superconductivity with arbitrary symmetry, altermagnetism, charge
+  density waves, disorder, heterostructures, and quasiclassical
+  transport (Eilenberger, Usadel, Keldysh).
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/uqmat/uqmat"
+
+authors:
+  - name: "UQMaT Contributors"
+
+references:
+  - type: article
+    title: "Bogoliubov-de Gennes method and its applications"
+    authors:
+      - family-names: "Zhu"
+        given-names: "Jian-Xin"
+    journal: "Springer"
+    year: 2016
+    notes: "BdG formalism and tight-binding implementation"
+
+  - type: article
+    title: "Quasiclassical theory of superconductivity"
+    authors:
+      - family-names: "Eilenberger"
+        given-names: "G."
+    journal: "Zeitschrift für Physik"
+    volume: "214"
+    pages: "195"
+    year: 1968
+    notes: "Eilenberger equation (clean-limit quasiclassical)"
+
+  - type: article
+    title: "Generalized kinetic equations for superconductors"
+    authors:
+      - family-names: "Usadel"
+        given-names: "K."
+    journal: "Physical Review Letters"
+    volume: "25"
+    pages: "507"
+    year: 1970
+    notes: "Usadel equation (dirty-limit quasiclassical)"
+
+  - type: article
+    title: "Diagram technique for nonequilibrium processes"
+    authors:
+      - family-names: "Keldysh"
+        given-names: "L.V."
+    journal: "Soviet Physics JETP"
+    volume: "20"
+    pages: "1018"
+    year: 1965
+    notes: "Keldysh non-equilibrium formalism"
+
+  - type: article
+    title: "Three-band tight-binding model for monolayers of group-VIB transition metal dichalcogenides"
+    authors:
+      - family-names: "Liu"
+        given-names: "G.-B."
+      - family-names: "Shan"
+        given-names: "W.-Y."
+      - family-names: "Yao"
+        given-names: "Y."
+      - family-names: "Yao"
+        given-names: "W."
+      - family-names: "Xiao"
+        given-names: "D."
+    journal: "Physical Review B"
+    volume: "88"
+    pages: "085433"
+    year: 2013
+    notes: "TMD three-band model (MoS2, WS2, MoSe2, WSe2)"
+
+  - type: article
+    title: "Coupled spin and valley physics in monolayers of MoS2 and other group-VI dichalcogenides"
+    authors:
+      - family-names: "Xiao"
+        given-names: "D."
+      - family-names: "Liu"
+        given-names: "G.-B."
+      - family-names: "Feng"
+        given-names: "W."
+      - family-names: "Xu"
+        given-names: "X."
+      - family-names: "Yao"
+        given-names: "W."
+    journal: "Physical Review Letters"
+    volume: "108"
+    pages: "196802"
+    year: 2012
+    notes: "Valley physics and TMD spin-orbit coupling"
+
+  - type: article
+    title: "Non-Hermitian localization and delocalization"
+    authors:
+      - family-names: "Hatano"
+        given-names: "N."
+      - family-names: "Nelson"
+        given-names: "D.R."
+    journal: "Physical Review Letters"
+    volume: "77"
+    pages: "570"
+    year: 1996
+    notes: "Hatano-Nelson model, non-Hermitian skin effect"
+
+  - type: article
+    title: "Edge modes, degeneracies, and topological numbers in non-Hermitian systems"
+    authors:
+      - family-names: "Yao"
+        given-names: "S."
+      - family-names: "Wang"
+        given-names: "Z."
+    journal: "Physical Review Letters"
+    volume: "121"
+    pages: "086803"
+    year: 2018
+    notes: "Non-Hermitian bulk-boundary correspondence, winding number"
+
+  - type: article
+    title: "Exceptional topology of non-Hermitian systems"
+    authors:
+      - family-names: "Bergholtz"
+        given-names: "E.J."
+      - family-names: "Budich"
+        given-names: "J.C."
+      - family-names: "Kunst"
+        given-names: "F.K."
+    journal: "Reviews of Modern Physics"
+    volume: "93"
+    pages: "015005"
+    year: 2021
+    notes: "Review of non-Hermitian topology, skin effect, exceptional points"
+
+  - type: article
+    title: "Chern numbers in discretized Brillouin zone"
+    authors:
+      - family-names: "Fukui"
+        given-names: "T."
+      - family-names: "Hatsugai"
+        given-names: "Y."
+      - family-names: "Suzuki"
+        given-names: "H."
+    journal: "Journal of the Physical Society of Japan"
+    volume: "74"
+    pages: "1674"
+    year: 2005
+    notes: "Fukui-Hatsugai-Suzuki lattice gauge field method for Chern number"
+
+  - type: article
+    title: "Quantal phase factors accompanying adiabatic changes"
+    authors:
+      - family-names: "Berry"
+        given-names: "M.V."
+    journal: "Proceedings of the Royal Society A"
+    volume: "392"
+    pages: "45"
+    year: 1984
+    notes: "Berry phase and Berry curvature"
+
+  - type: article
+    title: "Computing topological invariants without inversion symmetry"
+    authors:
+      - family-names: "Soluyanov"
+        given-names: "A.A."
+      - family-names: "Vanderbilt"
+        given-names: "D."
+    journal: "Physical Review B"
+    volume: "83"
+    pages: "235401"
+    year: 2011
+    notes: "Wilson loop / Wannier charge centres method"
+
+  - type: article
+    title: "Entanglement spectrum as a generalization of entanglement entropy"
+    authors:
+      - family-names: "Li"
+        given-names: "H."
+      - family-names: "Haldane"
+        given-names: "F.D.M."
+    journal: "Physical Review Letters"
+    volume: "101"
+    pages: "010504"
+    year: 2008
+    notes: "Entanglement spectrum method"
+
+  - type: article
+    title: "Topological insulators with inversion symmetry"
+    authors:
+      - family-names: "Fu"
+        given-names: "L."
+      - family-names: "Kane"
+        given-names: "C.L."
+    journal: "Physical Review B"
+    volume: "76"
+    pages: "045302"
+    year: 2007
+    notes: "Z2 invariant from TRIM parity eigenvalues"
+
+  - type: article
+    title: "Proximity effect at the superconductor-topological insulator interface"
+    authors:
+      - family-names: "Fu"
+        given-names: "L."
+      - family-names: "Kane"
+        given-names: "C.L."
+    journal: "Physical Review Letters"
+    volume: "100"
+    pages: "096407"
+    year: 2008
+    notes: "Proximity-induced SC, inhomogeneous pairing at interfaces"
+
+  - type: article
+    title: "Vortex core states in superconducting graphene"
+    authors:
+      - family-names: "Jackiw"
+        given-names: "R."
+      - family-names: "Rossi"
+        given-names: "P."
+    journal: "Nuclear Physics B"
+    volume: "190"
+    pages: "681"
+    year: 1981
+    notes: "Vortex core bound states, inhomogeneous gap profile"
+
+  - type: article
+    title: "Nonlocal Majorana polarization in topological superconductors"
+    authors:
+      - family-names: "Awoga"
+        given-names: "O.A."
+      - family-names: "Cayao"
+        given-names: "J."
+    journal: "Physical Review B"
+    year: 2023
+    notes: "MP_LR = MP_L * MP_R nonlocal left-right polarization"
+
+  - type: article
+    title: "Majorana polarization as a signature of topological superconductivity"
+    authors:
+      - family-names: "Kumar"
+        given-names: "H."
+      - family-names: "Cayao"
+        given-names: "J."
+      - family-names: "Awoga"
+        given-names: "O.A."
+    journal: "Physical Review B"
+    year: 2026
+    notes: "Nonlocal MP_LR, discrimination of MZM from trivial in-gap states"
