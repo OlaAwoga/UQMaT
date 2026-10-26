@@ -1,20 +1,18 @@
 cff-version: 1.2.0
-message: "If you use UQMaT in your research, please cite as below."
+message: "If you use this software, please cite it as below."
 type: software
-title: "UQMaT: Unified Quantum Materials Toolbox"
-abstract: >
-  UQMaT is a MATLAB package for constructing, solving, and analysing
-  tight-binding and Bogoliubov-de Gennes (BdG) Hamiltonians on 1D, 2D,
-  and 3D lattices. It supports a wide range of phenomena including
-  superconductivity with arbitrary symmetry, altermagnetism, charge
-  density waves, disorder, heterostructures, and quasiclassical
-  transport (Eilenberger, Usadel, Keldysh).
-version: "1.0.0"
-license: MIT
-repository-code: "https://github.com/uqmat/uqmat"
-
+title: "UQMaT: Unified Quantum Material Toolkit"
 authors:
-  - name: "UQMaT Contributors"
+  - family-names: "Awoga"
+    given-names: "Oladunjoye A."
+version: 1.0.0
+date-released: 2026-10-25
+repository-code: "https://github.com/OlaAwoga/UQMaT"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23645366"
+    description: "Zenodo DOI for this version"
+url: "https://zenodo.org/record/23645365"
 
 references:
   - type: article
